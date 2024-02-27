@@ -66,12 +66,12 @@ Every function has only one trigger.
 
 **App Settings:**
 
-**FUNCTIONS_WORKER_RUNTIME** environment variable in Azure Functions specifies the language or runtime that your function app uses to execute functions. (Runtime stack sets it e.g dotnet core) .
-**FUNTIONS_EXTENSION_VERSION** is an environment variable that specifies the version of the Azure Functions runtime that your function app is using. (default setting is version 2.x) .
-**APPINSIGHTS_INSTRUMENTATIONKEY** is an environment variable used in Azure Application Insights to specify the instrumentation key associated with an application. Application Insights is a service provided by Microsoft Azure for application performance monitoring, error tracking, and usage analytics.
-**AzureWebJobsStorage**  is used to store the connection string of the Azure Storage account associated with the function app, can be used with Azure funtions or standalone.
-**WEBSITE_CONTENTAZUREFILECONNECTIONSTRING** Specifies the connection string to the Azure Storage account used for storing the content of the web app or we can say connection string for storage account where config and app code is stored.(Consumption and Premium plans only)
-**WEBSITE_CONTENTSHARE** File share path where App config and code is stored. (Consumption and Premium plans only)
+**FUNCTIONS_WORKER_RUNTIME** environment variable in Azure Functions specifies the language or runtime that your function app uses to execute functions. (Runtime stack sets it e.g dotnet core).  
+**FUNTIONS_EXTENSION_VERSION** is an environment variable that specifies the version of the Azure Functions runtime that your function app is using. (default setting is version 2.x).  
+**APPINSIGHTS_INSTRUMENTATIONKEY** is an environment variable used in Azure Application Insights to specify the instrumentation key associated with an application. Application Insights is a service provided by Microsoft Azure for application performance monitoring, error tracking, and usage analytics.  
+**AzureWebJobsStorage**  is used to store the connection string of the Azure Storage account associated with the function app, can be used with Azure funtions or standalone.  
+**WEBSITE_CONTENTAZUREFILECONNECTIONSTRING** Specifies the connection string to the Azure Storage account used for storing the content of the web app or we can say connection string for storage account where config and app code is stored.(Consumption and Premium plans only)  
+**WEBSITE_CONTENTSHARE** File share path where App config and code is stored. (Consumption and Premium plans only)  
 
 **DIFFERENCE** : AzureWebJobsStorage is primarily used for internal Azure Functions operational data and can be any Azure Storage account, while WEBSITE_CONTENTAZUREFILECONNECTIONSTRING is used specifically for read-only access to files in Azure File Storage when you're using the Consumption Plan
 
