@@ -1,6 +1,3 @@
-Sharing my code while I learn Azure Functions
-Along with comments and necessary info to be remebered while using azure functions
-
 Azure Function : A single, individual function with a specific trigger and associated logic.	
 Azure Function App : A collection or container that can host multiple functions within the same environment. it provides an execution context in Azure where our functions run. Functions in one function app can be mamnaged, deployed and scaled together.
 
