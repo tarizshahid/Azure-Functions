@@ -64,8 +64,8 @@ NOTES :
 **function.json** is created for compiled languages but for scripting language you must provide it (function.json is created when we build or puiblish)
 Every function has only one trigger.
 
-**FUNCTIONS_WORKER_RUNTIME** environment variable in Azure Functions specifies the language or runtime that your function app uses to execute functions. (Runtime stack sets it e.g dotnet core)
-**FUNTIONS_EXTENSION_VERSION** is an environment variable that specifies the version of the Azure Functions runtime that your function app is using. (default setting is version 2.x)
+**FUNCTIONS_WORKER_RUNTIME** environment variable in Azure Functions specifies the language or runtime that your function app uses to execute functions. (Runtime stack sets it e.g dotnet core).
+**FUNTIONS_EXTENSION_VERSION** is an environment variable that specifies the version of the Azure Functions runtime that your function app is using. (default setting is version 2.x).
 
-Best way to **migrate** is to create a new function app and port existing version function code to the new app.
+Best way to **Migrate** is to create a new function app and port existing version function code to the new app.
 
